@@ -1,0 +1,5 @@
+./r2.sh: line 21:  4128 Killed                  nohup python train_bert_gcn.py --gcn_model ${gcn_model} --bert_init ${bert_init} --dataset mr --device ${device} --opt ${k} > ./log_${gcn_model}/${bert_init}/mr/opt_${k}_${j}.txt 2>&1
+./r2.sh: line 21: 22034 Killed                  nohup python train_bert_gcn.py --gcn_model ${gcn_model} --bert_init ${bert_init} --dataset R52 --device ${device} --opt ${k} > ./log_${gcn_model}/${bert_init}/R52/opt_${k}_${j}.txt 2>&1
+./r2.sh: line 21: 31948 Killed                  nohup python train_bert_gcn.py --gcn_model ${gcn_model} --bert_init ${bert_init} --dataset R8 --device ${device} --opt ${k} > ./log_${gcn_model}/${bert_init}/R8/opt_${k}_${j}.txt 2>&1
+./r1.sh: line 20: 23421 Killed                  nohup python finetune_bert.py --bert_init ${bert_init} --dataset R52 --device ${device} --opt ${k} > ./log/${bert_init}/R52/opt_${k}_${j}.txt 2>&1
+./r2.sh: line 21:  3325 Killed                  nohup python train_bert_gcn.py --gcn_model ${gcn_model} --bert_init ${bert_init} --dataset R52 --device ${device} --opt ${k} > ./log_${gcn_model}/${bert_init}/R52/opt_${k}_${j}.txt 2>&1
